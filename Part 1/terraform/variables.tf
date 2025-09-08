@@ -14,3 +14,8 @@ variable "ami_id" {
   default     = "ami-02d26659fd82cf299"
   
 }
+variable "allowed_cidr" {
+  description = "CIDR block allowed to access the instance (SSH & app ports)."
+  type        = string
+  default     = "0.0.0.0/0"
+}
