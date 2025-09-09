@@ -183,25 +183,5 @@ Deliverables:
 - Explanation of environment variables (`BACKEND_URL`), health checks, separate clusters rationale
 
 ---
-
-## 📸 Submission Guidelines (What to Capture)
-
-Include in your documentation (Google Doc / Word):
-1. Part 1:
-  - Terraform apply output (last 15–20 lines) & instance details page
-  - Browser / curl proof both ports respond
-2. Part 2:
-  - Apply output
-  - EC2 list showing two instances
-  - Security group inbound rules
-  - Curl backend API + frontend page
-3. Part 3:
-  - Apply output (showing ALB & ECS service creation)
-  - ECR repositories with images
-  - ECS clusters (backend & frontend) + services running
-  - ALBs (two DNS names) + target group health (green)
-  - Curl backend `/api` JSON + frontend root
-
----
 ## 👨‍💻 Author
 Prajwal – DevOps / Cloud Engineering Track
