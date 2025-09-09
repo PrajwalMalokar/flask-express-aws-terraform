@@ -1,7 +1,13 @@
 venv/
 node_modules/
 __pycache__/
+.pytest_cache/
 .terraform/
 *.tfstate
-.terraform.lock.hcl
+*.tfstate.*
+!terraform.tfstate.example
 terraform.tfstate.backup
+
+ecs describe-services*
+ecs list-tasks*
+ecs list-task-definitions*
